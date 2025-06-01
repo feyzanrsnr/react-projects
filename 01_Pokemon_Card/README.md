@@ -5,11 +5,11 @@ Projeye ait videoya ulaşmak isterseniz:
 [YouTube Video](https://www.youtube.com/watch?v=MONerFBEmNw)
 
 
-Bu proje, Pokémon karakterlerinin rastgele iki gruba ayrıldığı ve hangisinin daha güçlü olduğunun belirlendiği basit bir React uygulamasıdır.
+Bu proje, Pokemon karakterlerinin rastgele iki gruba ayrıldığı ve hangisinin daha güçlü olduğunun belirlendiği basit bir React uygulamasıdır.
 
 ## 📌 Proje Özellikleri
 
-- Pokémon'lar rastgele iki "elde" toplanır
+- Pokemon'lar rastgele iki "elde" toplanır
 - Her elin toplam deneyim puanı hesaplanır
 - Daha yüksek deneyime sahip olan kazanır
 
