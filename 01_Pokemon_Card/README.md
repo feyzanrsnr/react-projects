@@ -1,12 +1,55 @@
-# React + Vite
+# 🎮 Pokemon Card Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, [Ozan Tekin](https://github.com/ozantekin)'in react-bootcamp reposunda yer alan pokedex_project örneği temel alınarak yapılmıştır.  
+Projeye ait videoya ulaşmak isterseniz:  
+[YouTube Video](https://www.youtube.com/watch?v=MONerFBEmNw)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bu proje, Pokémon karakterlerinin rastgele iki gruba ayrıldığı ve hangisinin daha güçlü olduğunun belirlendiği basit bir React uygulamasıdır.
 
-## Expanding the ESLint configuration
+## 📌 Proje Özellikleri
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Pokémon'lar rastgele iki "elde" toplanır
+- Her elin toplam deneyim puanı hesaplanır
+- Daha yüksek deneyime sahip olan kazanır
+
+
+
+## 🚀 Modernizasyon
+
+Kendi versiyonumda modern geliştirme yaklaşımlarını kullanarak şu değişiklikleri yaptım:
+
+- ✅ **Vite** ile proje başlatıldı
+- ✅ **Functional Components** tercih edildi
+- ✅ **useState**, **props destructuring** gibi modern React özellikleriyle yazıldı
+
+## 🛠️ Kullanılan Teknolojiler
+
+- React (functional components)
+- Vite
+- JSX
+- CSS
+
+## Bu projeyi yaparken şunları öğrendim
+
+- React'te bileşen yapısı ve prop geçişi
+- map() fonksiyonu ile liste render etme
+- Rastgele veri seçimi (array shuffle)
+
+
+## 📂 Proje Kurulumu
+
+Projeyi çalıştırmak için aşağıdaki adımları takip edebilirsin:
+
+```bash
+# 1. Repoyu klonla
+git clone https://github.com/kullanici-adi/pokegame-modern.git
+
+# 2. Klasöre gir
+cd pokegame-modern
+
+# 3. Bağımlılıkları yükle
+npm install
+
+# 4. Projeyi başlat
+npm run dev
