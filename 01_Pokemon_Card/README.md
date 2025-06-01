@@ -37,19 +37,4 @@ Kendi versiyonumda modern geliştirme yaklaşımlarını kullanarak şu değişi
 - Rastgele veri seçimi (array shuffle)
 
 
-## 📂 Proje Kurulumu
 
-Projeyi çalıştırmak için aşağıdaki adımları takip edebilirsin:
-
-```bash
-# 1. Repoyu klonla
-git clone https://github.com/kullanici-adi/pokegame-modern.git
-
-# 2. Klasöre gir
-cd pokegame-modern
-
-# 3. Bağımlılıkları yükle
-npm install
-
-# 4. Projeyi başlat
-npm run dev
