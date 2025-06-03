@@ -1,0 +1,37 @@
+.LotteryContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.BallContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.Balls{
+    display: flex;
+}
+
+.LotteryContainer button{
+    padding: .5em;
+    background-color: tomato;
+    color: beige;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: .5em;
+    border: none;
+}
+
+.LotteryContainer button:hover{
+    padding: .5em;
+    background-color: transparent;
+    color: tomato;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: .5em;
+    border: 2px solid tomato;
+}
+
